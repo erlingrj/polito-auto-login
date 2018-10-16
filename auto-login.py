@@ -6,6 +6,9 @@ from urllib import request
 import time
 import sys
 
+USERNAME = "Wirte your username here"
+PASSWORD = "Write your password here"
+
 
 def connect_to_polito(username, password, options):
     try:
@@ -43,8 +46,6 @@ def check_internet_connection():
         print("Could not detect internet connection")
         return False
 
-username = "S263558"
-password = "Fender#3148649"
 
 def main(*args, **kwargs):
     options = Options()
@@ -52,7 +53,7 @@ def main(*args, **kwargs):
 
     while True:
         if not check_internet_connection():
-            connect_to_polito(username, password, options)
+            connect_to_polito(USERNAME, PASSWORD, options)
         
         time.sleep(3)
 
