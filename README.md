@@ -3,8 +3,8 @@ Your WiFi session  at Politecnico di Torino will expire at a given interval forc
 
 # Get started
 Clone repo
-´git clone https://github.com/erlingrj/polito-auto-login/´
-´cd  polito-auto-login´
+´´´git clone https://github.com/erlingrj/polito-auto-login/´´´
+´´´cd  polito-auto-login´´´
   
 Download required python libraries
 'pip3 install -r requirements.txt'
